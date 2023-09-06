@@ -1,0 +1,56 @@
+/* @import 'node_modules/react/dist/react.css';
+@import 'node_modules/react-dom/dist/react-dom.css'; */
+/* Body */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* header */
+.header {
+  margin-top: 45px;
+  margin-bottom: 50px;
+  display: flex;
+  width: 1240px;
+  height: 68px;
+  align-items: center;
+  gap: 720.678px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.header__accueil, .header__apropos {
+  color: #FF6060;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%; /* 34.224px */
+}
+.header__accueil:active, .header__apropos:active {
+  text-decoration: underline;
+}
+.header__accueil {
+  width: 136px;
+  margin-right: 57px;
+}
+.header__apropos {
+  width: 116px;
+}
+
+/* main */
+.main {
+  /*     margin-left: auto;
+      margin-right: auto; */
+}
+.main__navImg {
+  border-radius: 25px;
+  /* opacity: 0.3; */
+  background: #000;
+  mix-blend-mode: darken;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
